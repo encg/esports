@@ -152,9 +152,13 @@ img {
 /* Events section */
 
 .events-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 8rem 2rem;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(128deg, #2E2C34 0%, #26373B 100%);
 }
 
@@ -175,6 +179,7 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
     width: 100%;
+    height: 100%;
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
@@ -187,6 +192,7 @@ img {
     align-items: center;
     text-align: center;
     width: 100%;
+    height: 100%;
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 2rem;
